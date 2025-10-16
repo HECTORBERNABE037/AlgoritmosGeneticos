@@ -23,7 +23,7 @@ TOXICIDAD_MAXIMA = {#Restricciones de toxicidad (maximas ppm por cultivo)
 }
 #cantidad de penalizacion para la primera parte de la funcion objetivo
 W1_REQUERIMIENTOS = 10.0
-W2_REQUERIMIENTOS = 20.0
+W2_TOXICIDAD = 20.0
 #parametros para el problema
 CULTIVOS = list(REQUERIMIENTOS.keys())
 LISTA_FERTILIZANTES = list(COSTOS.keys())
