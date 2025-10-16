@@ -4,7 +4,7 @@ import numpy as np
 
 # ASUMO que tu archivo data/datos_problema.py tiene la variable W2_TOXICIDAD.
 # Si la nombraste diferente, ajústala aquí.
-from data.datos_problema import (
+from datos_problema import (
     COSTOS, FERTILIZANTES, REQUERIMIENTOS, TOXICIDAD_MAXIMA,
     W1_REQUERIMIENTOS, W2_TOXICIDAD, CULTIVOS, LISTA_FERTILIZANTES, NUTRIENTES,
     NUM_CULTIVOS, NUM_FERTILIZANTES

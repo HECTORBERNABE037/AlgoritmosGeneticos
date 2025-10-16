@@ -2,8 +2,8 @@
 
 import numpy as np
 # --- PIEZA FALTANTE: Importamos la función de fitness ---
-from src.problema import calcular_fitness
-from data.datos_problema import LONGITUD_CROMOSOMA
+from problema import calcular_fitness
+from datos_problema import LONGITUD_CROMOSOMA
 
 class AlgoritmoGenetico:
     def __init__(self, tam_poblacion, num_generaciones, tasa_cruce, tasa_mutacion, rango_genes=(0, 20)):

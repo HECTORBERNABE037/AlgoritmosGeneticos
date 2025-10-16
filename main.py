@@ -1,8 +1,10 @@
 # src/main.py
 
-from src.algoritmo_genetico import AlgoritmoGenetico
-from src.visualizacion import graficar_convergencia
-from data.datos_problema import NUM_CULTIVOS, NUM_FERTILIZANTES, CULTIVOS, LISTA_FERTILIZANTES
+from algoritmo_genetico import AlgoritmoGenetico
+from visualizacion import graficar_convergencia
+from datos_problema import NUM_CULTIVOS, NUM_FERTILIZANTES, CULTIVOS, LISTA_FERTILIZANTES
+
+
 
 # --- PARÁMETROS DEL EXPERIMENTO (¡Puedes jugar con estos valores!) ---
 TAM_POBLACION = 100
